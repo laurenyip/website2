@@ -105,11 +105,31 @@ h1.text-center {
 
 p {
   position: relative;
-  text-align: center; /* Center-align the text */
+  text-align: left; /* Center-align the text */
   font-family: "Moto", serif;
   color: #0a085d;
 }
+p3 {
+  position: relative;
+  text-align: left; /* Center-align the text */
+  font-family:"F25", serif;
+  color: #0a085d;
+}
+p3b {
+  position: relative;
+  text-align: left; /* Center-align the text */
+  font-family:"F25", serif;
+  font-size: xx-large;
+  color: #0a085d;
+}
 
+p2 {
+  position: relative;
+  text-align: left; /* Center-align the text */
+  font-family:"Arial", serif;
+  font-size: 10px;
+  color: #0a085d;
+}
 p1 {
   font-family: "URWGeometricRegular", sans-serif;
   font-weight: 100;
@@ -136,7 +156,7 @@ p1 {
 
 .container {
   border: #001c80 solid 1px;
-  padding-left: 5%;
+  padding: 10%;
 }
 
 /* ~~~ NAVBAR STYLING ~~~ */
@@ -353,4 +373,9 @@ p1 {
 @font-face {
   font-family: "URWGeometricRegular";
   src: url("fonts/URWGeometricRegular.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "F25";
+  src: url("fonts/f25.otf") format("OpenType");
 }

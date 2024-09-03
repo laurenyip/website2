@@ -30,35 +30,33 @@ function App() {
       </ul>
 
       <div class="container">
-        <img src="/images/header.png" alt="header" />
+        
 
-        <p>Lauren Yip</p>
+        <p3>YIP/LAUREN宝怡</p3>
+<br></br>
+        <br></br>
 
-        <p>Vancouver, BC, CANADA</p>
+        <p3>the website &nbsp; 09FEB 2003</p3>
+<br></br>
+<p2>FM</p2>
+        <p3>&nbsp;&nbsp;VANCOUVER/YVR</p3>
+        <br></br> <p2>TO</p2>
+        <p3>&nbsp;&nbsp;THEWORLD/!!!</p3>
 
-        <p>the website </p>
+        <br></br><br></br><br></br>
+<p2>&nbsp;&nbsp;Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Status</p2> 
+<br></br> <p3b>21A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YEAR4</p3b> 
 
-        <p>
-          Currently: studying Computer Science at SFU, about to join
-          AI4GoodLab's Summer 2024 cohort!
-        </p>
+<br></br>
+<p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RESUME</p3>
+<br></br>
+<p2>laurenyip20@gmail.com --- linkedin.com/in/lauren-yip</p2>
 
-        <p>Email      Resume       LinkedIn</p>
-        <a href="laurenyip10@gmail.com" target="_blank">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
+    
+       
 
-        <p>Resume</p>
-        <a href="Yip_Lauren_Resume.pdf" target="_blank">
-          <i class="fa-solid fa-file"></i>
-        </a>
+<img src="images/stamp.png" alt="stamp" />
 
-        <p>LinkedIn</p>
-        <a href="https://www.linkedin.com/in/lauren-yip/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-
-        <p>Enjoy your stay and feel free to reach out!</p>
       </div>
     </div>
   );
