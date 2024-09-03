@@ -1,4 +1,4 @@
-.App {
+.About {
     margin: 2% 20%;
   }
   
@@ -166,9 +166,7 @@
   .container {
     border: #001c80 solid 1px;
     padding: 8%;
-    background-image: url('/root/website2/website2/website2/public/images/stamp.png');
-   
-    background-repeat: no-repeat;
+    
     max-width: fit-content;
   }
   
@@ -355,6 +353,40 @@
   .dot:hover {
     background-color: rgb(112, 162, 255);
   }
+
+  /* About.css */
+.About .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adds space between the image and slideshow */
+}
+
+.About .imageAboutPage {
+  width: 40%; 
+  height: auto;
+}
+
+.About .slideshow-container {
+  width: 50%;
+}
+
+.mySlides1 img {
+  width: 100%; 
+  height: auto;
+}
+
+.nextA {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: black;
+  user-select: none;
+}
+
   
   @font-face {
     font-family: "Chobani";

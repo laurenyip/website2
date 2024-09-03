@@ -163,12 +163,19 @@ p1 {
   padding-inline: 5%;
 }
 
-.container {
+.containermain {
   border: #001c80 solid 1px;
   padding: 8%;
   background-image: url('/root/website2/website2/website2/public/images/stamp.png');
  
   background-repeat: no-repeat;
+  max-width: fit-content;
+}
+
+.container {
+  border: #001c80 solid 1px;
+  padding: 8%;
+
   max-width: fit-content;
 }
 
