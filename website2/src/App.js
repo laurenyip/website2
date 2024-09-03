@@ -1,5 +1,6 @@
 import "./App.css";
 
+
 function App() {
   return (
     <div className="App">
@@ -53,10 +54,6 @@ function App() {
 <p2>laurenyip20@gmail.com --- linkedin.com/in/lauren-yip</p2>
 
     
-       
-
-<img src="images/stamp.png" alt="stamp" />
-
       </div>
     </div>
   );

@@ -5,8 +5,17 @@
 /* logo image */
 
 body.main {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  
   /* border: rgb(18, 79, 120, 0.8) solid 1.5vw;*/
+}
+
+body {
+  font-family: "Moto", serif;
+  font-size: 16px;
+  color: #0a085d;
+  background-color: #ffffff;
+
 }
 
 /* hero background image */
@@ -156,7 +165,11 @@ p1 {
 
 .container {
   border: #001c80 solid 1px;
-  padding: 10%;
+  padding: 8%;
+  background-image: url('/root/website2/website2/website2/public/images/stamp.png');
+ 
+  background-repeat: no-repeat;
+  max-width: fit-content;
 }
 
 /* ~~~ NAVBAR STYLING ~~~ */
