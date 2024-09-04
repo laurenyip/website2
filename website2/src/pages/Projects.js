@@ -67,29 +67,38 @@ function Projects() {
               edits... [Dec 2023]
             </p>
           </div>
+          <div className="project-item">
+            <a href="https://rosielab.github.io/react-to-this/" target="_blank">
+              <button class="btn custom-btn">React to This!</button>
+            </a>
+            <p>
+              One of my first REACT projects! A project website I made as the
+              undergraduate research assistant for Rosie Lab. My project is
+              called <strong>"Aware Like an Animal."</strong>
+            </p>
+            <p>
+              We researched interactions between people and virtual agents,
+              towards the overall goal of making believable, interaction-aware
+              virtual characters.
+            </p>
+            <p>
+              I analyzed and annotated participants' videos, helped to edit and
+              proofread the paper, and participated and collaborated in
+              meetings. I also created a supplementary video and designed a website,
+              overviewing our project to submit to CHI '24 and IROS '24.
+            </p>
+          </div>
         </div>
 
         <div className="project-item">
-         
-       
-             
-            
-             
-                <a
-                  href="https://github.com/laurenyip"
-                  target="_blank"   >
-                  <button class="btn custom-btn">GITHUB</button>
-             
-                  <i className="fab fa-github"></i>
-                </a>
-              </div>
-              <p>See the repositories!</p>
-            
-     
-   
-      </div>
+          <a href="https://github.com/laurenyip" target="_blank">
+            <button class="btn custom-btn">GITHUB</button>
 
-     
+           
+          </a>
+        </div>
+        <p>See the repositories!</p>
+      </div>
     </div>
   );
 }
