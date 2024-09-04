@@ -79,6 +79,7 @@ function About() {
             src="/images/about/green.png"
             className="imageAboutPage"
             alt="Green"
+            style={{ width: "30%" }}
           />
 
           <div id="aboutImageSlideshow" className="slideshow-container">
@@ -86,42 +87,42 @@ function About() {
               <img
                 src="images/about/sunrise/1.jpg"
                 alt="Sunrise 1"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
             <div className="mySlides1">
               <img
                 src="images/about/sunrise/2.jpg"
                 alt="Sunrise 2"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
             <div className="mySlides1">
               <img
                 src="images/about/sunrise/3.jpg"
                 alt="Sunrise 3"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
             <div className="mySlides1">
               <img
                 src="images/about/sunrise/4.jpg"
                 alt="Sunrise 4"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
             <div className="mySlides1">
               <img
                 src="images/about/sunrise/5.jpg"
                 alt="Sunrise 5"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
             <div className="mySlides1">
               <img
                 src="images/about/sunrise/6.jpg"
                 alt="Sunrise 6"
-                style={{ width: "54%" }}
+                style={{ width: "63%" }}
               />
             </div>
 
