@@ -29,15 +29,11 @@ function Projects() {
       </ul>
 
       <div className="container">
-      <h1 className="text-left">Projects</h1>
+        <h1 className="text-left">Projects</h1>
         <div className="project-list">
           <div className="project-item">
-            <a
-              href="https://github.com/laurenyip/ai4good"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="btn btn-outline-secondary">Brig.AI</button>
+            <a href="https://github.com/laurenyip/ai4good" target="_blank">
+              <button class="btn custom-btn">Brig.AI</button>
             </a>
             <p>
               Brig.ai empowers women affected by PCOS and Endometriosis to take
@@ -51,23 +47,20 @@ function Projects() {
             <a
               href="https://devpost.com/software/emergency-response-bc-erbc"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              <button className="btn btn-outline-secondary">
-                Emergency Response BC
-              </button>
+              <button class="btn custom-btn">Emergency Response BC</button>
             </a>
             <p>
-              This was my first hackathon project! With my amazing team, I helped
-              design and implement a functional webapp that can take location data
-              and output a list of the nearest hospitals and their emergency room
-              wait time. [Jan 2024][nwHACKS 2024]
+              This was my first hackathon project! With my amazing team, I
+              helped design and implement a functional webapp that can take
+              location data and output a list of the nearest hospitals and their
+              emergency room wait time. [Jan 2024][nwHACKS 2024]
             </p>
           </div>
 
           <div className="project-item">
-            <a href="laurenyip.com" target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-outline-secondary">This Website!</button>
+            <a href="laurenyip.com" target="_blank">
+              <button class="btn custom-btn">This Website!</button>
             </a>
             <p>
               Was coded with the help of HTML, Bootstrap CSS, JS, and lots of
@@ -76,33 +69,27 @@ function Projects() {
           </div>
         </div>
 
-        <div className="github-section">
-          <div className="card portfolioContent">
-            <div className="card-body text-center">
-              <h1>GitHub</h1>
-              <p>See the repositories!</p>
-              <div className="social-icons mt-2">
+        <div className="project-item">
+         
+       
+             
+            
+             
                 <a
                   href="https://github.com/laurenyip"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  target="_blank"   >
+                  <button class="btn custom-btn">GITHUB</button>
+             
                   <i className="fab fa-github"></i>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
+              <p>See the repositories!</p>
+            
+     
+   
       </div>
 
-      <footer id="footer">
-        <img
-          className="footer-img"
-          src="/images/footer.jpg"
-          alt="Footer"
-          style={{ width: "100%" }}
-        />
-      </footer>
+     
     </div>
   );
 }

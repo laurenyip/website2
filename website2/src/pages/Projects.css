@@ -153,6 +153,28 @@ p1 {
   color: /* Specify the text color you want on hover */ ;
 }
 
+.btn.custom-btn {
+    background-color: #ffc2c2;
+    border: none;
+    color: #0a085d;
+    font-family: "Moto", serif;
+    font-size: large;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn.custom-btn:hover {
+    background-color: #ffb2b2;
+    color: #ffffff;
+  }
+  
+
 /* ~~~ CONTENT CONTAINER STYLING ~~~ */
 
 .content {
